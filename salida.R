@@ -1,6 +1,6 @@
 ##Conservation biology
 #Carlos Javier Diaz: cjda1396@gmail.com
-## Script dato coprofagos
+## Script data coprofagos
 
 setwd()
 #First we read our data matrix and assign it to the "data" vector
