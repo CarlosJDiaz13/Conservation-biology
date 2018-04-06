@@ -4,14 +4,14 @@
 
 setwd()
 #First we read our data matrix and assign it to the "data" vector
-datos <- read.csv("morfo.csv", header =T)
-class(datos)
+data <- read.csv("morfo.csv", header =T)
+class(data)
 
 #assign to a vector each column of the data.frame "data"
 # each vector corresponds to the abundance of the different Morphs (28) in each sampling site
-PinarA <- datos$Pinar.A
-BsecunB <- datos$Segundario.B
-Yar <- datos$Bosque.Yarigui.es
+PinarA <- data$Pinar.A
+BsecunB <- data$Segundario.B
+Yar <- data$Bosque.Yarigui.es
 
 # Now we graph, and we show the 3 graphs in a single image with the function "par ()"
 png("1.png",width = 790,height = 490)
